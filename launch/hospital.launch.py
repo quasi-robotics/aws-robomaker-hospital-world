@@ -4,6 +4,7 @@ import sys
 import launch
 from launch.conditions import IfCondition
 from launch.substitutions import PythonExpression
+from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
 
 
@@ -13,21 +14,24 @@ def generate_launch_description():
 
     gazebo_ros = get_package_share_directory('gazebo_ros')
     gazebo_client = launch.actions.IncludeLaunchDescription(
-	launch.launch_description_sources.PythonLaunchDescriptionSource(
+        launch.launch_description_sources.PythonLaunchDescriptionSource(
             os.path.join(gazebo_ros, 'launch', 'gzclient.launch.py')),
         condition=launch.conditions.IfCondition(launch.substitutions.LaunchConfiguration('gui'))
-     )
+    )
     gazebo_server = launch.actions.IncludeLaunchDescription(
         launch.launch_description_sources.PythonLaunchDescriptionSource(
-            os.path.join(gazebo_ros, 'launch', 'gzserver.launch.py'))
+            os.path.join(gazebo_ros, 'launch', 'gzserver.launch.py')
+        ),
+        launch_arguments={'server_required': 'true',
+                          'verbose': 'true',
+                          'world': world}.items()
     )
-
 
     ld = launch.LaunchDescription([
         launch.actions.DeclareLaunchArgument(
-          'world',
-          default_value=[world, ''],
-          description='SDF world file'),
+            'world',
+            default_value=[world, ''],
+            description='SDF world file'),
         launch.actions.DeclareLaunchArgument(
             name='gui',
             default_value='false'
