@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Black_Elderberry_Syrup_54_oz_Gaia_Herbs"
+description: "Black Elderberry Syrup, 5.4 oz, Gaia Herbs"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Black"
+}
+annotations {
+  key: "gtin"
+  value: "00751063800037"
+}
+annotations {
+  key: "sku"
+  value: "00751063800037"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Consumer Goods"
+}

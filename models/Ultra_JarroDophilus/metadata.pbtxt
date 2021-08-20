@@ -1,0 +1,39 @@
+model {
+  file: "model.sdf"
+}
+name: "Ultra_JarroDophilus"
+description: "Ultra Jarro-Dophilus"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Jarrow Formulas"
+}
+annotations {
+  key: "gtin"
+  value: "790011030263"
+}
+annotations {
+  key: "mpn"
+  value: "790011030263"
+}
+annotations {
+  key: "sku"
+  value: "ULTJD"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Consumer Goods"
+}

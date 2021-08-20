@@ -1308,6 +1308,13 @@
       </include>
       <pose>-12.2 -25.0 1.5 0 0 0</pose>
     </model>
+    <model name="Syrup_1">
+      <include>
+        <uri>model://Black_Elderberry_Syrup_54_oz_Gaia_Herbs</uri>
+        <static>false</static>
+      </include>
+      <pose>-10.1 -30.0 1.5 0 0 0</pose>
+    </model>
     <model name="Drugs_1">
       <include>
         <uri>model://Inositol</uri>
@@ -1322,9 +1329,27 @@
     </model>
     <model name="Drugs_3">
       <include>
-        <uri>model://CoQ10</uri>
+        <uri>model://Lutein</uri>
       </include>
       <pose>8.75 3.5 1.1 0 0 0</pose>
+    </model>
+    <model name="Drugs_4">
+      <include>
+        <uri>model://Ultra_JarroDophilus</uri>
+      </include>
+      <pose>9.5 3.4 1.1 0 0 -1.1</pose>
+    </model>
+    <model name="Drugs_5">
+      <include>
+        <uri>model://SAMe_200</uri>
+      </include>
+      <pose>9.3 3.35 1.6 0 0 1.1</pose>
+    </model>
+    <model name="Drugs_6">
+      <include>
+        <uri>model://JarroSil_Activated_Silicon</uri>
+      </include>
+      <pose>9.55 3.28 0.8 0 0 1.2</pose>
     </model>
   </world>
 </sdf>

@@ -1,0 +1,39 @@
+model {
+  file: "model.sdf"
+}
+name: "JarroSil_Activated_Silicon"
+description: "JarroSil, Activated Silicon\nJarroSil is a synergistic formulation of highly bioavailable silicon. A patent pending Activated Silicon formula, JarroSil  contains stabilized molecular clusters of silicic acid, which provide a biologically active form of silicon upon dissolution into liquids. JarroSil is manufactured  in the USA using the  latest technology for enhanced  bioavailability,  stability and  improved taste.  Stabilized silicic acid  is converted to highly bioavailable ortho- and disilicic acids upon dissolution in liquids and in the stomach. JarroSil\357\277\275s Activated Silicon improves the strength and elasticity of collagen by stimulating collagen production. Stronger collagen means healthier, more elastic skin, and fewer and shallower wrinkles.* The outer shaft of hair is rich in silicon. Adequate silicon helps hair grow thicker and stronger.* Supplementation with JarroSil also strengthens weak, brittle nails associated with an inadequate silicon intake.* Silicon plays an important role in bone  calcification, including during the growth of new bone.* Bone building cells (osteoblasts) start by constructing a connective tissue matrix. When this is  done, the osteoblasts switch their function and begin to fill in this matrix with minerals. This process requires silicon.* JarroSil is an essential partner of  calcium for bones and antioxidants for supple and healthy arteries.* *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Jarrow Formulas"
+}
+annotations {
+  key: "gtin"
+  value: "790011130178"
+}
+annotations {
+  key: "mpn"
+  value: "790011130178"
+}
+annotations {
+  key: "sku"
+  value: "JSIL60"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Consumer Goods"
+}
