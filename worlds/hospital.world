@@ -752,15 +752,15 @@
         <uri>model://StorageRackCovered</uri>
         <static>true</static>
       </include>
+      <pose>0.546476 -18.3985 -0 0 -0 1.56584</pose>
     </model>
-    <pose>0.546476 -18.3985 -0 0 -0 1.56584</pose>
     <model name="StorageRack_2">
       <include>
         <uri>model://StorageRack</uri>
         <static>true</static>
       </include>
+      <pose>-2.69866 -22.4178 -8e-06 0 4e-06 0</pose>
     </model>
-    <pose>-2.69866 -22.4178 -8e-06 0 4e-06 0</pose>
     <model name="KitchenSink_1">
       <include>
         <uri>model://KitchenSink</uri>
