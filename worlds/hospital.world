@@ -3,6 +3,11 @@
   <world name="world">
     <gravity>0 0 -9.8</gravity>
     <physics default="0" name="default_physics" type="ode">
+      <ode>
+        <solver>
+          <iters>1000</iters>
+        </solver>
+      </ode>
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
       <real_time_update_rate>1000</real_time_update_rate>
