@@ -5,7 +5,7 @@
     <physics default="0" name="default_physics" type="ode">
       <ode>
         <solver>
-          <iters>1000</iters>
+          <iters>400</iters>
         </solver>
       </ode>
       <max_step_size>0.001</max_step_size>
