@@ -1297,7 +1297,7 @@
         <uri>model://Coke</uri>
         <static>false</static>
       </include>
-      <pose>2.55 3.62 0.9 0 0 0</pose>
+      <pose>2.4 3.6 0.9 0 0 0</pose>
     </model>
     <model name="Coke_2">
       <include>
