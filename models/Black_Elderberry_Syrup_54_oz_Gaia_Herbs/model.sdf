@@ -21,6 +21,8 @@ to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
       <surface>
         <contact>
           <ode>
+            <kp>2000000.0</kp>
+            <kd>5000</kd>
             <max_vel>0.01</max_vel>
             <min_depth>0.001</min_depth>
           </ode>
@@ -32,6 +34,14 @@ to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
           </mesh>
         </geometry>
       </collision>
+      <inertial>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.003366666666666667</ixx>
+          <iyy>0.0008666666666666667</iyy>
+          <izz>0.0041666666666666675</izz>
+        </inertia>
+      </inertial>
     </link>
   </model>
 </sdf>

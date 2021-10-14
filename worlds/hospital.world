@@ -1322,7 +1322,7 @@
         <uri>model://Black_Elderberry_Syrup_54_oz_Gaia_Herbs</uri>
         <static>false</static>
       </include>
-      <pose>-10.1 -30.0 1.5 0 0 0</pose>
+      <pose>-9.79 -30.06 0.33 0 0 0</pose>
     </model>
     <model name="Drugs_1">
       <include>
