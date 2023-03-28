@@ -1352,7 +1352,7 @@
       <include>
         <uri>model://SAMe_200</uri>
       </include>
-      <pose>9.3 3.35 1.6 0 0 1.1</pose>
+      <pose>9.3 3.35 1.76 0 0 1.1</pose>
     </model>
     <model name="Drugs_6">
       <include>
