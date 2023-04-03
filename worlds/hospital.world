@@ -665,13 +665,13 @@
       </include>
       <pose>-11.0309 -3.75145 0 0 -0 1.56614</pose>
     </model>
-    <model name="aws_robomaker_hospital_floor_01_ceiling_1">
+    <!-- <model name="aws_robomaker_hospital_floor_01_ceiling_1">
       <include>
         <uri>model://aws_robomaker_hospital_floor_01_ceiling</uri>
         <static>true</static>
       </include>
       <pose>0.016552 0.050728 0 0 -0 0</pose>
-    </model>
+    </model> -->
     <model name="aws_robomaker_hospital_ramp_01_1">
       <include>
         <uri>model://aws_robomaker_hospital_ramp_01</uri>
