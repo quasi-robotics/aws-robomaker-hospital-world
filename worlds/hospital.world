@@ -21,13 +21,6 @@
       <background>0.4 0.4 0.4 1</background>
       <shadows>false</shadows>
     </scene>
-    <include>
-      <uri>model://sun</uri>
-    </include>
-    <include>
-      <uri>model://ground_plane</uri>
-      <pose>0 0 -0.1 0 -0 0</pose>
-    </include>
     <model name="aws_robomaker_hospital_floor_01_floor_1">
       <include>
         <uri>model://aws_robomaker_hospital_floor_01_floor</uri>
